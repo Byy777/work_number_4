@@ -1,0 +1,9 @@
+footer{
+    width: 100vw;
+    height: 100px;
+    background: rgb(20, 20, 20);
+}
+footer div{
+    padding: 30px 50px;
+    color: white;
+}

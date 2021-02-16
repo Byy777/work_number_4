@@ -1,0 +1,108 @@
+main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 600px;
+
+    background: rgb(43, 42, 42);
+}
+main h3{
+    text-align: center;
+    margin: 0;
+    color: rgb(155, 41, 41);
+    padding: 0;
+}
+main .attractions{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+.attractions .attractions_box{
+    width: 350px;
+    height: 200px;
+    background: white;
+    margin: 25px 5px;
+    cursor: pointer;
+}
+.attractions_box .box_img{
+    width: 350px;
+    height: 170px;
+    
+}
+.attractions_box .img_1{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/6d8/380_190_1/6d85eb7dd0209a69a1397ac129655952.png') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_2{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/bd3/380_190_1/bd371db046c23913c5bf64ed92b1f927.jpg') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_3{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/99a/380_190_1/99a63536b41188e74ad1918240c02312.jpg') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_4{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/2c5/380_190_1/2c5590d7e968c13eafae76a4b86c00b2.jpg') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_5{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/20c/380_190_1/20c99a02de89eaa14062100617c92c00.png') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_6{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/ba3/380_190_1/ba306cc77ca0218a42aac19d8b06e65a.png') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_7{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/121/380_190_1/121cceb67df402036760b08943b9d574.png') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_8{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/569/380_190_1/569aa1547b3a9cdcd8895220fd5d691e.jpg') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_9{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/b36/380_190_1/b36eaa6d2b613f24e3ec65ef1b0d56a1.png') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_10{
+    background: url('https://tourism.rostov-gorod.ru/local/templates/tourism_2019/images/no_photo.jpg') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .img_11{
+    background: url('https://tourism.rostov-gorod.ru/upload/resize_cache/iblock/585/380_190_1/585ca7c85bff8e4d2d3305c1ced20374.jpg') center/cover;
+    background-size: 100%;
+    transition: all 1s linear;
+}
+.attractions_box .box_text{
+    text-align: center;
+    color: rgb(155, 41, 41);
+}
+.img_1:hover, .img_2:hover, .img_3:hover, .img_4:hover, .img_5:hover, .img_6:hover, .img_7:hover, .img_8:hover, .img_9:hover, .img_10:hover, .img_11:hover{
+background-size: 110%;
+}
+.box_line{
+    padding-top: 1px;
+    width: 100px;
+    height: 8px;
+    margin: 0 auto;
+    background: turquoise;
+    transition: all 1s linear;
+}
+.attractions_box:hover .box_line{
+    width: 100%;
+    background: rgb(155, 41, 41);
+}
